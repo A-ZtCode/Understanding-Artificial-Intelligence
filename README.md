@@ -1,42 +1,17 @@
-# Understanding_Artificial_Intelligence
+# Understanding Artificial Intelligence
+
+## Overview
+Understanding Artificial Intelligence" delves into the practical applications and ethical considerations of AI. It's an exploration into how AI can be used for real-world problem solving, with a focus on water quality analysis, object recognition, and the ethical dimensions of AI technology.
+
  
 ## Table of Contents
-1. Water Quality Analysis
-2. Multi-object Recogniser
-3. Discussion of Ethics in AI
-
-
-### Water Quality Analysis
-Using CEFAS's 2021 data on biotoxins and phytoplankton, this project aims to identify patterns of concentrations based on certain features. A multi-layer feed-forward neural network assists in this objective.
-
-#### Key Topics:
-- Reading and cleaning data.
-- Training a neural network based on input features.
-- Evaluating network performance and accuracy.
-
-#### Data Source:
-CEFAS 2021 Data on Biotoxins and Phytoplankton
-
-
-### Multi-object Recogniser
-For this segment, we leverage the "vehicles" dataset and adapt a Convolutional Neural Network (CNN) to recognize four distinct object types. Additionally, a curated dataset showcases images of these objects in diverse scenarios.
-
-#### Key Topics:
-- Training and validation accuracy.
-- The relationship between network depth and performance.
-- Pooling mechanisms: average vs. max.
-- Fine-tuning and model explainability.
-
-### Discussion of Ethics in AI
-The realm of artificial intelligence is vast and continually evolving, with ethical considerations at its core. This section offers an in-depth discussion based on selected research papers, emphasizing the ethical facets of AI.
-
-#### Key Topics:
-- Ethical considerations in AI research.
-- Implications of AI in various real-world contexts.
+### 1. Water Quality Analysis
+   - Using data from CEFAS 2021, this project applies a multi-layer feed-forward neural network to identify patterns in biotoxins and phytoplankton concentrations. Key topics include data handling, neural network training, and performance evaluation.
+### 2. Multi-object Recogniser
+   - This part utilizes a Convolutional Neural Network (CNN) with a dataset on vehicle recognition. It explores training accuracy, network depth, pooling mechanisms, and model explainability.
+### 3. Discussion of Ethics in AI
+   - A comprehensive discussion based on selected research papers, focusing on the ethical considerations and real-world implications of AI.
   
 ## Technologies Used
-#### Language: 
-   - Python
-#### Frameworks:
-   - TensorFlow (and its associated tools)
-   - Keras
+#### Language: Python
+#### Frameworks: TensorFlow and Keras
